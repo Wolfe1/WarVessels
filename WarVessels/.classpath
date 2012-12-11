@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="tests"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/jars/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/jars/lwjgl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="WarVessels/lib/windows"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jars/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="lib/jars/slf4j-log4j12-1.6.4.jar"/>
+	<classpathentry kind="lib" path="lib/jars/slick.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

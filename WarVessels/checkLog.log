@@ -1,0 +1,647 @@
+20:16:00,986  INFO WarVesselsGame:27 - WAR VESSELS GAME adding states
+   20:16:01,000  INFO WarVesselsGame:32 - WAR VESSELS GAME entering main menu state
+   20:16:02,777  INFO WarVesselsGame:46 - WAR VESSELS GAME initializing states
+   20:16:03,757  INFO MainMenuState:69 - main menu state initialized
+   20:16:04,165  INFO GamePlayState:121 - game play state initialized
+   20:16:04,853  INFO InstructionsState:65 - instructions state initialized
+   20:16:04,854  INFO MainMenuState:69 - main menu state initialized
+   20:16:04,856  INFO GamePlayState:121 - game play state initialized
+   20:16:04,860  INFO InstructionsState:65 - instructions state initialized
+   20:16:29,955  INFO MainMenuState:113 - entering game play state
+   20:16:29,971  INFO GamePlayState:166 - game play state entered
+   20:16:29,972  INFO GamePlayState:167 - entering SETUP_STATE
+   20:16:29,973  INFO GamePlayState:168 - PLAYER PLACING SHIPS
+   20:16:32,363  INFO Grid:45 - CARRIER placed at 8,7
+   20:16:38,601  INFO Grid:45 - BATTLESHIP placed at 6,2
+   20:16:41,647  INFO Ship:96 - BATTLESHIP rotated
+   20:16:44,308  INFO Grid:45 - BATTLESHIP placed at 3,6
+   20:16:46,907  INFO Grid:45 - SUBMARINE placed at 7,5
+   20:16:51,253  INFO Ship:96 - DESTROYER rotated
+   20:16:53,050  INFO Grid:45 - DESTROYER placed at 1,9
+   20:16:55,376  INFO Grid:45 - PATROL_BOAT placed at 7,2
+   20:17:00,996  INFO Ship:96 - PATROL_BOAT rotated
+   20:17:02,581  INFO Grid:45 - PATROL_BOAT placed at 7,2
+   20:17:07,168  INFO GamePlayState:325 - new smart AI created
+   20:17:07,169  INFO GamePlayState:326 - AI PLACING SHIPS
+   20:17:07,170  INFO Ship:96 - CARRIER rotated
+   20:17:07,170  INFO Ship:96 - CARRIER rotated
+   20:17:07,170  INFO Ship:96 - CARRIER rotated
+   20:17:07,171  INFO Grid:45 - CARRIER placed at 9,4
+   20:17:07,171  INFO Ship:96 - BATTLESHIP rotated
+   20:17:07,171  INFO Ship:96 - BATTLESHIP rotated
+   20:17:07,172  INFO Ship:96 - BATTLESHIP rotated
+   20:17:07,172  INFO Grid:45 - BATTLESHIP placed at 7,3
+   20:17:07,172  INFO Grid:45 - SUBMARINE placed at 4,0
+   20:17:07,173  INFO Ship:96 - DESTROYER rotated
+   20:17:07,173  INFO Ship:96 - DESTROYER rotated
+   20:17:07,173  INFO Ship:96 - DESTROYER rotated
+   20:17:07,174  INFO Grid:45 - DESTROYER placed at 0,3
+   20:17:07,174  INFO Ship:96 - PATROL_BOAT rotated
+   20:17:07,174  INFO Ship:96 - PATROL_BOAT rotated
+   20:17:07,174  INFO Grid:45 - PATROL_BOAT placed at 4,8
+   20:17:07,175  INFO GamePlayState:330 - entering PLAYER_TURN_STATE
+   20:17:09,580  INFO GamePlayState:409 - player guessed 3,5
+   20:17:09,581  INFO GamePlayState:421 - player misses
+   20:17:09,582  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:10,092  INFO GamePlayState:456 - opponent guessed 2,8
+   20:17:10,093  INFO GamePlayState:464 - opponent misses
+   20:17:10,093  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:10,991  INFO GamePlayState:409 - player guessed 4,6
+   20:17:10,992  INFO GamePlayState:421 - player misses
+   20:17:10,993  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:11,504  INFO GamePlayState:456 - opponent guessed 6,8
+   20:17:11,504  INFO GamePlayState:464 - opponent misses
+   20:17:11,505  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:12,323  INFO GamePlayState:409 - player guessed 5,7
+   20:17:12,323  INFO GamePlayState:421 - player misses
+   20:17:12,324  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:12,839  INFO GamePlayState:456 - opponent guessed 9,3
+   20:17:12,840  INFO GamePlayState:464 - opponent misses
+   20:17:12,840  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:13,255  INFO GamePlayState:409 - player guessed 6,8
+   20:17:13,256  INFO GamePlayState:421 - player misses
+   20:17:13,256  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:13,768  INFO Ship:59 - CARRIER hit
+   20:17:13,768  INFO GamePlayState:456 - opponent guessed 7,7
+   20:17:13,769  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:14,875  INFO GamePlayState:409 - player guessed 7,9
+   20:17:14,876  INFO GamePlayState:421 - player misses
+   20:17:14,877  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:15,392  INFO GamePlayState:456 - opponent guessed 7,6
+   20:17:15,392  INFO GamePlayState:464 - opponent misses
+   20:17:15,393  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:17,429  INFO GamePlayState:409 - player guessed 2,4
+   20:17:17,429  INFO GamePlayState:421 - player misses
+   20:17:17,430  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:17,942  INFO GamePlayState:456 - opponent guessed 7,8
+   20:17:17,942  INFO GamePlayState:464 - opponent misses
+   20:17:17,942  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:18,842  INFO GamePlayState:409 - player guessed 1,3
+   20:17:18,843  INFO GamePlayState:421 - player misses
+   20:17:18,843  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:19,358  INFO Ship:59 - CARRIER hit
+   20:17:19,358  INFO GamePlayState:456 - opponent guessed 6,7
+   20:17:19,358  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:20,433  INFO GamePlayState:409 - player guessed 0,2
+   20:17:20,433  INFO GamePlayState:421 - player misses
+   20:17:20,434  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:20,946  INFO Ship:59 - CARRIER hit
+   20:17:20,946  INFO GamePlayState:456 - opponent guessed 5,7
+   20:17:20,946  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:23,830  INFO GamePlayState:409 - player guessed 4,5
+   20:17:23,831  INFO GamePlayState:421 - player misses
+   20:17:23,832  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:24,342  INFO Ship:59 - CARRIER hit
+   20:17:24,342  INFO GamePlayState:456 - opponent guessed 4,7
+   20:17:24,343  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:25,128  INFO GamePlayState:409 - player guessed 5,4
+   20:17:25,128  INFO GamePlayState:421 - player misses
+   20:17:25,129  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:25,640  INFO GamePlayState:456 - opponent guessed 3,7
+   20:17:25,641  INFO GamePlayState:464 - opponent misses
+   20:17:25,641  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:27,149  INFO GamePlayState:409 - player guessed 6,3
+   20:17:27,149  INFO GamePlayState:421 - player misses
+   20:17:27,150  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:27,661  INFO Ship:59 - CARRIER hit
+   20:17:27,662  INFO Ship:62 - CARRIER sunk
+   20:17:27,663  INFO GamePlayState:456 - opponent guessed 8,7
+   20:17:27,663  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:28,529  INFO GamePlayState:409 - player guessed 7,2
+   20:17:28,529  INFO GamePlayState:421 - player misses
+   20:17:28,530  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:29,043  INFO GamePlayState:456 - opponent guessed 8,4
+   20:17:29,043  INFO GamePlayState:464 - opponent misses
+   20:17:29,044  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:29,555  INFO GamePlayState:409 - player guessed 8,1
+   20:17:29,555  INFO GamePlayState:421 - player misses
+   20:17:29,555  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:30,069  INFO GamePlayState:456 - opponent guessed 8,0
+   20:17:30,070  INFO GamePlayState:464 - opponent misses
+   20:17:30,070  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:30,646  INFO GamePlayState:409 - player guessed 9,0
+   20:17:30,646  INFO GamePlayState:421 - player misses
+   20:17:30,647  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:31,161  INFO GamePlayState:456 - opponent guessed 5,3
+   20:17:31,161  INFO GamePlayState:464 - opponent misses
+   20:17:31,162  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:33,890  INFO GamePlayState:409 - player guessed 2,7
+   20:17:33,890  INFO GamePlayState:421 - player misses
+   20:17:33,891  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:34,403  INFO GamePlayState:456 - opponent guessed 5,9
+   20:17:34,404  INFO GamePlayState:464 - opponent misses
+   20:17:34,404  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:35,256  INFO GamePlayState:409 - player guessed 3,7
+   20:17:35,257  INFO GamePlayState:421 - player misses
+   20:17:35,257  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:35,770  INFO GamePlayState:456 - opponent guessed 4,4
+   20:17:35,770  INFO GamePlayState:464 - opponent misses
+   20:17:35,770  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:36,281  INFO GamePlayState:409 - player guessed 1,8
+   20:17:36,282  INFO GamePlayState:421 - player misses
+   20:17:36,282  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:36,794  INFO Ship:59 - BATTLESHIP hit
+   20:17:36,794  INFO GamePlayState:456 - opponent guessed 3,5
+   20:17:36,795  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:37,162  INFO GamePlayState:409 - player guessed 0,9
+   20:17:37,162  INFO GamePlayState:421 - player misses
+   20:17:37,163  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:37,676  INFO GamePlayState:456 - opponent guessed 2,5
+   20:17:37,676  INFO GamePlayState:464 - opponent misses
+   20:17:37,677  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:38,334  INFO GamePlayState:409 - player guessed 2,6
+   20:17:38,335  INFO GamePlayState:421 - player misses
+   20:17:38,335  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:38,848  INFO Ship:59 - BATTLESHIP hit
+   20:17:38,849  INFO GamePlayState:456 - opponent guessed 3,6
+   20:17:38,849  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:39,329  INFO GamePlayState:409 - player guessed 1,5
+   20:17:39,329  INFO GamePlayState:421 - player misses
+   20:17:39,330  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:39,841  INFO GamePlayState:456 - opponent guessed 4,6
+   20:17:39,841  INFO GamePlayState:464 - opponent misses
+   20:17:39,842  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:40,517  INFO GamePlayState:409 - player guessed 3,3
+   20:17:40,517  INFO GamePlayState:421 - player misses
+   20:17:40,518  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:41,029  INFO GamePlayState:456 - opponent guessed 4,5
+   20:17:41,030  INFO GamePlayState:464 - opponent misses
+   20:17:41,030  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:41,413  INFO GamePlayState:409 - player guessed 4,4
+   20:17:41,414  INFO GamePlayState:421 - player misses
+   20:17:41,414  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:41,925  INFO Ship:59 - BATTLESHIP hit
+   20:17:41,925  INFO GamePlayState:456 - opponent guessed 3,4
+   20:17:41,926  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:42,393  INFO GamePlayState:409 - player guessed 5,3
+   20:17:42,393  INFO GamePlayState:421 - player misses
+   20:17:42,394  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:42,903  INFO Ship:59 - BATTLESHIP hit
+   20:17:42,904  INFO Ship:62 - BATTLESHIP sunk
+   20:17:42,905  INFO GamePlayState:456 - opponent guessed 3,3
+   20:17:42,905  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:43,275  INFO GamePlayState:409 - player guessed 4,2
+   20:17:43,275  INFO GamePlayState:421 - player misses
+   20:17:43,276  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:43,788  INFO Ship:59 - DESTROYER hit
+   20:17:43,788  INFO GamePlayState:456 - opponent guessed 1,7
+   20:17:43,789  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:44,108  INFO GamePlayState:409 - player guessed 3,1
+   20:17:44,108  INFO GamePlayState:421 - player misses
+   20:17:44,109  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:44,621  INFO GamePlayState:456 - opponent guessed 2,7
+   20:17:44,621  INFO GamePlayState:464 - opponent misses
+   20:17:44,621  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:44,926  INFO GamePlayState:409 - player guessed 2,2
+   20:17:44,927  INFO GamePlayState:421 - player misses
+   20:17:44,927  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:45,438  INFO GamePlayState:456 - opponent guessed 0,7
+   20:17:45,438  INFO GamePlayState:464 - opponent misses
+   20:17:45,439  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:46,047  INFO GamePlayState:409 - player guessed 1,1
+   20:17:46,047  INFO GamePlayState:421 - player misses
+   20:17:46,048  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:46,561  INFO Ship:59 - DESTROYER hit
+   20:17:46,561  INFO GamePlayState:456 - opponent guessed 1,8
+   20:17:46,562  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:46,851  INFO GamePlayState:409 - player guessed 0,0
+   20:17:46,851  INFO GamePlayState:421 - player misses
+   20:17:46,852  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:47,363  INFO Ship:59 - DESTROYER hit
+   20:17:47,363  INFO Ship:62 - DESTROYER sunk
+   20:17:47,363  INFO GamePlayState:456 - opponent guessed 1,9
+   20:17:47,364  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:47,796  INFO GamePlayState:409 - player guessed 2,0
+   20:17:47,797  INFO Ship:59 - SUBMARINE hit
+   20:17:47,797  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:48,309  INFO Ship:59 - SUBMARINE hit
+   20:17:48,309  INFO GamePlayState:456 - opponent guessed 5,5
+   20:17:48,309  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:48,790  INFO GamePlayState:409 - player guessed 3,0
+   20:17:48,790  INFO Ship:59 - SUBMARINE hit
+   20:17:48,790  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:49,306  INFO Ship:59 - SUBMARINE hit
+   20:17:49,306  INFO GamePlayState:456 - opponent guessed 6,5
+   20:17:49,307  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:49,771  INFO GamePlayState:409 - player guessed 1,0
+   20:17:49,771  INFO GamePlayState:421 - player misses
+   20:17:49,771  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:50,283  INFO Ship:59 - SUBMARINE hit
+   20:17:50,283  INFO Ship:62 - SUBMARINE sunk
+   20:17:50,284  INFO GamePlayState:456 - opponent guessed 7,5
+   20:17:50,284  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:17:51,005  INFO GamePlayState:409 - player guessed 4,0
+   20:17:51,005  INFO Ship:59 - SUBMARINE hit
+   20:17:51,006  INFO Ship:62 - SUBMARINE sunk
+   20:17:51,006  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:17:51,517  INFO GamePlayState:456 - opponent guessed 9,1
+   20:17:51,518  INFO GamePlayState:464 - opponent misses
+   20:17:51,518  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:18:13,593  INFO GamePlayState:409 - player guessed 5,1
+   20:18:13,593  INFO GamePlayState:421 - player misses
+   20:18:13,594  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:18:14,107  INFO GamePlayState:456 - opponent guessed 7,9
+   20:18:14,107  INFO GamePlayState:464 - opponent misses
+   20:18:14,108  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:18:14,976  INFO GamePlayState:409 - player guessed 6,2
+   20:18:14,976  INFO GamePlayState:421 - player misses
+   20:18:14,977  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:18:15,490  INFO Ship:59 - PATROL_BOAT hit
+   20:18:15,490  INFO GamePlayState:456 - opponent guessed 7,1
+   20:18:15,491  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:18:16,373  INFO GamePlayState:409 - player guessed 8,4
+   20:18:16,373  INFO GamePlayState:421 - player misses
+   20:18:16,374  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:18:16,886  INFO GamePlayState:456 - opponent guessed 8,1
+   20:18:16,887  INFO GamePlayState:464 - opponent misses
+   20:18:16,887  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:18:18,122  INFO GamePlayState:409 - player guessed 8,6
+   20:18:18,122  INFO GamePlayState:421 - player misses
+   20:18:18,123  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:18:18,636  INFO GamePlayState:456 - opponent guessed 7,0
+   20:18:18,636  INFO GamePlayState:464 - opponent misses
+   20:18:18,636  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:18:19,471  INFO GamePlayState:409 - player guessed 7,5
+   20:18:19,472  INFO Ship:59 - BATTLESHIP hit
+   20:18:19,472  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:18:19,984  INFO GamePlayState:456 - opponent guessed 6,1
+   20:18:19,985  INFO GamePlayState:464 - opponent misses
+   20:18:19,986  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:18:20,803  INFO GamePlayState:409 - player guessed 6,5
+   20:18:20,804  INFO GamePlayState:421 - player misses
+   20:18:20,804  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:18:21,316  INFO Ship:59 - PATROL_BOAT hit
+   20:18:21,316  INFO Ship:62 - PATROL_BOAT sunk
+   20:18:21,317  INFO GamePlayState:456 - opponent guessed 7,2
+   20:18:21,317  INFO GamePlayState:470 - GAME OVER, AI WINS
+   20:18:21,317  INFO GamePlayState:471 - entering GAME_OVER_STATE
+   20:18:21,318  INFO GamePlayState:570 - Total Guess: 38
+   20:18:21,318  INFO GamePlayState:571 - Total Hits: 4
+   20:18:21,318  INFO GamePlayState:572 - Total Misses: 34
+   20:18:21,320  INFO GamePlayState:573 - Hit Rate: 10.53%
+   20:18:47,911  INFO GamePlayState:261 - entering main menu state
+   20:18:49,401  INFO MainMenuState:113 - entering game play state
+   20:18:49,418  INFO GamePlayState:166 - game play state entered
+   20:18:49,418  INFO GamePlayState:167 - entering SETUP_STATE
+   20:18:49,418  INFO GamePlayState:168 - PLAYER PLACING SHIPS
+   20:18:51,805  INFO Grid:45 - CARRIER placed at 8,7
+   20:18:53,857  INFO Grid:45 - BATTLESHIP placed at 4,4
+   20:18:56,118  INFO Ship:96 - BATTLESHIP rotated
+   20:18:57,741  INFO Grid:45 - BATTLESHIP placed at 0,5
+   20:18:58,834  INFO Ship:96 - SUBMARINE rotated
+   20:19:00,550  INFO Grid:45 - SUBMARINE placed at 1,8
+   20:19:02,365  INFO Grid:45 - PATROL_BOAT placed at 8,4
+   20:19:04,132  INFO Ship:96 - DESTROYER rotated
+   20:19:07,674  INFO Grid:45 - DESTROYER placed at 4,3
+   20:19:10,211  INFO GamePlayState:325 - new smart AI created
+   20:19:10,211  INFO GamePlayState:326 - AI PLACING SHIPS
+   20:19:10,212  INFO Ship:96 - CARRIER rotated
+   20:19:10,212  INFO Grid:45 - CARRIER placed at 6,8
+   20:19:10,212  INFO Ship:96 - BATTLESHIP rotated
+   20:19:10,213  INFO Grid:45 - BATTLESHIP placed at 9,8
+   20:19:10,213  INFO Ship:96 - SUBMARINE rotated
+   20:19:10,213  INFO Ship:96 - SUBMARINE rotated
+   20:19:10,213  INFO Ship:96 - SUBMARINE rotated
+   20:19:10,214  INFO Grid:45 - SUBMARINE placed at 2,3
+   20:19:10,214  INFO Grid:45 - DESTROYER placed at 8,0
+   20:19:10,214  INFO Ship:96 - PATROL_BOAT rotated
+   20:19:10,215  INFO Ship:96 - PATROL_BOAT rotated
+   20:19:10,215  INFO Grid:45 - PATROL_BOAT placed at 8,2
+   20:19:10,216  INFO GamePlayState:330 - entering PLAYER_TURN_STATE
+   20:19:11,929  INFO GamePlayState:409 - player guessed 5,5
+   20:19:11,929  INFO GamePlayState:421 - player misses
+   20:19:11,929  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:12,441  INFO GamePlayState:456 - opponent guessed 6,0
+   20:19:12,442  INFO GamePlayState:464 - opponent misses
+   20:19:12,442  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:20,044  INFO GamePlayState:409 - player guessed 4,4
+   20:19:20,045  INFO GamePlayState:421 - player misses
+   20:19:20,046  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:20,561  INFO GamePlayState:456 - opponent guessed 1,3
+   20:19:20,562  INFO GamePlayState:464 - opponent misses
+   20:19:20,562  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:21,652  INFO GamePlayState:409 - player guessed 6,4
+   20:19:21,652  INFO Ship:59 - CARRIER hit
+   20:19:21,653  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:22,164  INFO GamePlayState:456 - opponent guessed 1,9
+   20:19:22,165  INFO GamePlayState:464 - opponent misses
+   20:19:22,165  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:22,967  INFO GamePlayState:409 - player guessed 7,4
+   20:19:22,968  INFO GamePlayState:421 - player misses
+   20:19:22,968  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:23,480  INFO GamePlayState:456 - opponent guessed 2,2
+   20:19:23,481  INFO GamePlayState:464 - opponent misses
+   20:19:23,481  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:25,149  INFO GamePlayState:409 - player guessed 6,5
+   20:19:25,149  INFO Ship:59 - CARRIER hit
+   20:19:25,150  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:25,661  INFO GamePlayState:456 - opponent guessed 7,1
+   20:19:25,662  INFO GamePlayState:464 - opponent misses
+   20:19:25,662  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:26,431  INFO GamePlayState:409 - player guessed 6,6
+   20:19:26,431  INFO Ship:59 - CARRIER hit
+   20:19:26,432  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:26,943  INFO GamePlayState:456 - opponent guessed 4,0
+   20:19:26,944  INFO GamePlayState:464 - opponent misses
+   20:19:26,944  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:27,682  INFO GamePlayState:409 - player guessed 6,7
+   20:19:27,682  INFO Ship:59 - CARRIER hit
+   20:19:27,683  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:28,194  INFO GamePlayState:456 - opponent guessed 9,3
+   20:19:28,195  INFO GamePlayState:464 - opponent misses
+   20:19:28,195  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:29,316  INFO GamePlayState:409 - player guessed 6,8
+   20:19:29,316  INFO Ship:59 - CARRIER hit
+   20:19:29,317  INFO Ship:62 - CARRIER sunk
+   20:19:29,317  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:29,828  INFO GamePlayState:456 - opponent guessed 3,9
+   20:19:29,828  INFO GamePlayState:464 - opponent misses
+   20:19:29,829  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:31,784  INFO GamePlayState:409 - player guessed 3,6
+   20:19:31,785  INFO GamePlayState:421 - player misses
+   20:19:31,785  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:32,297  INFO GamePlayState:456 - opponent guessed 1,1
+   20:19:32,297  INFO GamePlayState:464 - opponent misses
+   20:19:32,298  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:33,644  INFO GamePlayState:409 - player guessed 2,7
+   20:19:33,644  INFO GamePlayState:421 - player misses
+   20:19:33,645  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:34,155  INFO GamePlayState:456 - opponent guessed 3,3
+   20:19:34,156  INFO GamePlayState:464 - opponent misses
+   20:19:34,157  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:34,429  INFO GamePlayState:409 - player guessed 1,8
+   20:19:34,429  INFO GamePlayState:421 - player misses
+   20:19:34,430  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:34,943  INFO Ship:59 - BATTLESHIP hit
+   20:19:34,943  INFO GamePlayState:456 - opponent guessed 0,2
+   20:19:34,944  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:35,394  INFO GamePlayState:409 - player guessed 0,9
+   20:19:35,394  INFO GamePlayState:421 - player misses
+   20:19:35,394  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:35,907  INFO GamePlayState:456 - opponent guessed 0,1
+   20:19:35,907  INFO GamePlayState:464 - opponent misses
+   20:19:35,908  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:36,550  INFO GamePlayState:409 - player guessed 0,7
+   20:19:36,550  INFO GamePlayState:421 - player misses
+   20:19:36,550  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:37,064  INFO Ship:59 - BATTLESHIP hit
+   20:19:37,064  INFO GamePlayState:456 - opponent guessed 0,3
+   20:19:37,065  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:38,348  INFO GamePlayState:409 - player guessed 3,3
+   20:19:38,349  INFO GamePlayState:421 - player misses
+   20:19:38,349  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:38,863  INFO Ship:59 - BATTLESHIP hit
+   20:19:38,863  INFO GamePlayState:456 - opponent guessed 0,4
+   20:19:38,863  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:39,457  INFO GamePlayState:409 - player guessed 2,2
+   20:19:39,457  INFO GamePlayState:421 - player misses
+   20:19:39,457  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:39,970  INFO Ship:59 - BATTLESHIP hit
+   20:19:39,971  INFO Ship:62 - BATTLESHIP sunk
+   20:19:39,971  INFO GamePlayState:456 - opponent guessed 0,5
+   20:19:39,972  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:40,709  INFO GamePlayState:409 - player guessed 1,1
+   20:19:40,709  INFO GamePlayState:421 - player misses
+   20:19:40,710  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:41,222  INFO GamePlayState:456 - opponent guessed 4,4
+   20:19:41,223  INFO GamePlayState:464 - opponent misses
+   20:19:41,223  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:41,738  INFO GamePlayState:409 - player guessed 4,1
+   20:19:41,738  INFO GamePlayState:421 - player misses
+   20:19:41,738  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:42,251  INFO GamePlayState:456 - opponent guessed 2,4
+   20:19:42,251  INFO GamePlayState:464 - opponent misses
+   20:19:42,252  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:42,570  INFO GamePlayState:409 - player guessed 5,2
+   20:19:42,570  INFO GamePlayState:421 - player misses
+   20:19:42,570  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:43,086  INFO GamePlayState:456 - opponent guessed 3,5
+   20:19:43,086  INFO GamePlayState:464 - opponent misses
+   20:19:43,087  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:43,729  INFO GamePlayState:409 - player guessed 7,1
+   20:19:43,729  INFO GamePlayState:421 - player misses
+   20:19:43,730  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:44,245  INFO GamePlayState:456 - opponent guessed 1,5
+   20:19:44,246  INFO GamePlayState:464 - opponent misses
+   20:19:44,247  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:44,518  INFO GamePlayState:409 - player guessed 6,2
+   20:19:44,518  INFO GamePlayState:421 - player misses
+   20:19:44,518  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:45,030  INFO GamePlayState:456 - opponent guessed 8,2
+   20:19:45,030  INFO GamePlayState:464 - opponent misses
+   20:19:45,031  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:45,799  INFO GamePlayState:409 - player guessed 8,2
+   20:19:45,799  INFO Ship:59 - PATROL_BOAT hit
+   20:19:45,799  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:46,311  INFO GamePlayState:456 - opponent guessed 3,1
+   20:19:46,312  INFO GamePlayState:464 - opponent misses
+   20:19:46,313  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:46,682  INFO GamePlayState:409 - player guessed 8,3
+   20:19:46,682  INFO GamePlayState:421 - player misses
+   20:19:46,682  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:47,195  INFO GamePlayState:456 - opponent guessed 9,9
+   20:19:47,196  INFO GamePlayState:464 - opponent misses
+   20:19:47,196  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:47,420  INFO GamePlayState:409 - player guessed 9,2
+   20:19:47,421  INFO Ship:59 - PATROL_BOAT hit
+   20:19:47,422  INFO Ship:62 - PATROL_BOAT sunk
+   20:19:47,422  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:47,934  INFO GamePlayState:456 - opponent guessed 6,4
+   20:19:47,934  INFO GamePlayState:464 - opponent misses
+   20:19:47,935  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:50,595  INFO GamePlayState:409 - player guessed 8,6
+   20:19:50,595  INFO GamePlayState:421 - player misses
+   20:19:50,596  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:51,107  INFO GamePlayState:456 - opponent guessed 8,0
+   20:19:51,108  INFO GamePlayState:464 - opponent misses
+   20:19:51,109  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:51,364  INFO GamePlayState:409 - player guessed 9,6
+   20:19:51,364  INFO Ship:59 - BATTLESHIP hit
+   20:19:51,365  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:51,878  INFO GamePlayState:456 - opponent guessed 0,6
+   20:19:51,878  INFO GamePlayState:464 - opponent misses
+   20:19:51,879  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:52,438  INFO GamePlayState:409 - player guessed 9,5
+   20:19:52,439  INFO Ship:59 - BATTLESHIP hit
+   20:19:52,440  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:52,952  INFO GamePlayState:456 - opponent guessed 4,8
+   20:19:52,952  INFO GamePlayState:464 - opponent misses
+   20:19:52,953  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:53,225  INFO GamePlayState:409 - player guessed 9,7
+   20:19:53,226  INFO Ship:59 - BATTLESHIP hit
+   20:19:53,226  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:53,737  INFO GamePlayState:456 - opponent guessed 7,3
+   20:19:53,738  INFO GamePlayState:464 - opponent misses
+   20:19:53,739  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:54,153  INFO GamePlayState:409 - player guessed 9,8
+   20:19:54,154  INFO Ship:59 - BATTLESHIP hit
+   20:19:54,154  INFO Ship:62 - BATTLESHIP sunk
+   20:19:54,155  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:54,667  INFO GamePlayState:456 - opponent guessed 6,2
+   20:19:54,668  INFO GamePlayState:464 - opponent misses
+   20:19:54,669  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:55,569  INFO GamePlayState:409 - player guessed 8,8
+   20:19:55,569  INFO GamePlayState:421 - player misses
+   20:19:55,570  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:56,082  INFO GamePlayState:456 - opponent guessed 3,7
+   20:19:56,082  INFO GamePlayState:464 - opponent misses
+   20:19:56,083  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:56,675  INFO GamePlayState:409 - player guessed 7,7
+   20:19:56,675  INFO GamePlayState:421 - player misses
+   20:19:56,675  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:57,187  INFO Ship:59 - SUBMARINE hit
+   20:19:57,187  INFO GamePlayState:456 - opponent guessed 1,7
+   20:19:57,188  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:58,117  INFO GamePlayState:409 - player guessed 4,7
+   20:19:58,117  INFO GamePlayState:421 - player misses
+   20:19:58,117  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:58,630  INFO Ship:59 - SUBMARINE hit
+   20:19:58,631  INFO GamePlayState:456 - opponent guessed 1,6
+   20:19:58,631  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:19:58,760  INFO GamePlayState:409 - player guessed 5,8
+   20:19:58,760  INFO GamePlayState:421 - player misses
+   20:19:58,760  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:19:59,272  INFO GamePlayState:456 - opponent guessed 2,6
+   20:19:59,272  INFO GamePlayState:464 - opponent misses
+   20:19:59,273  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:00,460  INFO GamePlayState:409 - player guessed 4,9
+   20:20:00,460  INFO GamePlayState:421 - player misses
+   20:20:00,460  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:00,970  INFO Ship:59 - SUBMARINE hit
+   20:20:00,971  INFO Ship:62 - SUBMARINE sunk
+   20:20:00,971  INFO GamePlayState:456 - opponent guessed 1,8
+   20:20:00,972  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:01,386  INFO GamePlayState:409 - player guessed 3,8
+   20:20:01,387  INFO GamePlayState:421 - player misses
+   20:20:01,388  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:01,899  INFO GamePlayState:456 - opponent guessed 5,3
+   20:20:01,899  INFO GamePlayState:464 - opponent misses
+   20:20:01,899  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:02,540  INFO GamePlayState:409 - player guessed 1,6
+   20:20:02,540  INFO GamePlayState:421 - player misses
+   20:20:02,540  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:03,054  INFO GamePlayState:456 - opponent guessed 6,6
+   20:20:03,054  INFO GamePlayState:464 - opponent misses
+   20:20:03,054  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:03,583  INFO GamePlayState:409 - player guessed 0,5
+   20:20:03,583  INFO GamePlayState:421 - player misses
+   20:20:03,583  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:04,095  INFO GamePlayState:456 - opponent guessed 6,8
+   20:20:04,096  INFO GamePlayState:464 - opponent misses
+   20:20:04,096  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:04,305  INFO GamePlayState:409 - player guessed 1,4
+   20:20:04,305  INFO GamePlayState:421 - player misses
+   20:20:04,306  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:04,815  INFO GamePlayState:456 - opponent guessed 5,9
+   20:20:04,816  INFO GamePlayState:464 - opponent misses
+   20:20:04,816  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:05,041  INFO GamePlayState:409 - player guessed 2,5
+   20:20:05,042  INFO Ship:59 - SUBMARINE hit
+   20:20:05,042  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:05,557  INFO Ship:59 - CARRIER hit
+   20:20:05,558  INFO GamePlayState:456 - opponent guessed 7,7
+   20:20:05,558  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:06,361  INFO GamePlayState:409 - player guessed 3,5
+   20:20:06,361  INFO GamePlayState:421 - player misses
+   20:20:06,361  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:06,877  INFO GamePlayState:456 - opponent guessed 7,8
+   20:20:06,877  INFO GamePlayState:464 - opponent misses
+   20:20:06,877  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:07,391  INFO GamePlayState:409 - player guessed 2,6
+   20:20:07,391  INFO GamePlayState:421 - player misses
+   20:20:07,391  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:07,907  INFO GamePlayState:456 - opponent guessed 7,6
+   20:20:07,908  INFO GamePlayState:464 - opponent misses
+   20:20:07,908  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:08,405  INFO GamePlayState:409 - player guessed 1,5
+   20:20:08,406  INFO GamePlayState:421 - player misses
+   20:20:08,406  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:08,918  INFO Ship:59 - CARRIER hit
+   20:20:08,918  INFO GamePlayState:456 - opponent guessed 6,7
+   20:20:08,919  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:09,446  INFO GamePlayState:409 - player guessed 2,4
+   20:20:09,447  INFO Ship:59 - SUBMARINE hit
+   20:20:09,447  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:09,962  INFO Ship:59 - CARRIER hit
+   20:20:09,962  INFO GamePlayState:456 - opponent guessed 5,7
+   20:20:09,962  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:10,777  INFO GamePlayState:409 - player guessed 2,3
+   20:20:10,777  INFO Ship:59 - SUBMARINE hit
+   20:20:10,778  INFO Ship:62 - SUBMARINE sunk
+   20:20:10,778  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:11,288  INFO Ship:59 - CARRIER hit
+   20:20:11,289  INFO GamePlayState:456 - opponent guessed 4,7
+   20:20:11,289  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:12,639  INFO GamePlayState:409 - player guessed 3,2
+   20:20:12,639  INFO GamePlayState:421 - player misses
+   20:20:12,639  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:13,153  INFO GamePlayState:456 - opponent guessed 4,6
+   20:20:13,153  INFO GamePlayState:464 - opponent misses
+   20:20:13,153  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:14,162  INFO GamePlayState:409 - player guessed 5,3
+   20:20:14,162  INFO GamePlayState:421 - player misses
+   20:20:14,163  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:14,674  INFO Ship:59 - CARRIER hit
+   20:20:14,675  INFO Ship:62 - CARRIER sunk
+   20:20:14,675  INFO GamePlayState:456 - opponent guessed 8,7
+   20:20:14,675  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:17,145  INFO GamePlayState:409 - player guessed 5,1
+   20:20:17,145  INFO GamePlayState:421 - player misses
+   20:20:17,145  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:17,657  INFO GamePlayState:456 - opponent guessed 8,6
+   20:20:17,657  INFO GamePlayState:464 - opponent misses
+   20:20:17,657  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:18,155  INFO GamePlayState:409 - player guessed 4,2
+   20:20:18,155  INFO GamePlayState:421 - player misses
+   20:20:18,156  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:18,668  INFO GamePlayState:456 - opponent guessed 0,0
+   20:20:18,668  INFO GamePlayState:464 - opponent misses
+   20:20:18,668  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:19,341  INFO GamePlayState:409 - player guessed 7,3
+   20:20:19,342  INFO GamePlayState:421 - player misses
+   20:20:19,342  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:19,857  INFO GamePlayState:456 - opponent guessed 9,1
+   20:20:19,857  INFO GamePlayState:464 - opponent misses
+   20:20:19,858  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:20,484  INFO GamePlayState:409 - player guessed 6,0
+   20:20:20,484  INFO Ship:59 - DESTROYER hit
+   20:20:20,485  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:20,997  INFO GamePlayState:456 - opponent guessed 8,8
+   20:20:20,998  INFO GamePlayState:464 - opponent misses
+   20:20:20,999  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:21,703  INFO GamePlayState:409 - player guessed 7,0
+   20:20:21,703  INFO Ship:59 - DESTROYER hit
+   20:20:21,703  INFO GamePlayState:439 - entering AI_TURN_STATE
+   20:20:22,215  INFO GamePlayState:456 - opponent guessed 7,9
+   20:20:22,216  INFO GamePlayState:464 - opponent misses
+   20:20:22,217  INFO GamePlayState:480 - entering PLAYER_TURN_STATE
+   20:20:22,651  INFO GamePlayState:409 - player guessed 8,0
+   20:20:22,651  INFO Ship:59 - DESTROYER hit
+   20:20:22,651  INFO Ship:62 - DESTROYER sunk
+   20:20:22,652  INFO GamePlayState:434 - GAME OVER, PLAYER WINS
+   20:20:22,652  INFO GamePlayState:435 - entering GAME_OVER_STATE
+   20:20:22,652  INFO GamePlayState:570 - Total Guess: 51
+   20:20:22,653  INFO GamePlayState:571 - Total Hits: 17
+   20:20:22,653  INFO GamePlayState:572 - Total Misses: 34
+   20:20:22,653  INFO GamePlayState:573 - Hit Rate: 33.33%
+   20:20:35,091  INFO GamePlayState:261 - entering main menu state
+   20:20:41,201  INFO MainMenuState:129 - entering instructions state
+   20:20:42,899  INFO InstructionsState:127 - entering main menu state
+   20:20:43,474  INFO MainMenuState:113 - entering game play state
+   20:20:43,489  INFO GamePlayState:166 - game play state entered
+   20:20:43,490  INFO GamePlayState:167 - entering SETUP_STATE
+   20:20:43,490  INFO GamePlayState:168 - PLAYER PLACING SHIPS
+   20:26:19,425  INFO WarVesselsGame:27 - WAR VESSELS GAME adding states
+   20:26:19,439  INFO WarVesselsGame:32 - WAR VESSELS GAME entering main menu state
+   20:26:20,126  INFO WarVesselsGame:46 - WAR VESSELS GAME initializing states
+   20:26:20,899  INFO MainMenuState:69 - main menu state initialized
+   20:26:21,344  INFO GamePlayState:121 - game play state initialized
+   20:26:21,952  INFO InstructionsState:65 - instructions state initialized
+   20:26:21,954  INFO MainMenuState:69 - main menu state initialized
+   20:26:21,955  INFO GamePlayState:121 - game play state initialized
+   20:26:21,960  INFO InstructionsState:65 - instructions state initialized
+   20:26:24,299  INFO MainMenuState:113 - entering game play state
+   20:26:24,314  INFO GamePlayState:166 - game play state entered
+   20:26:24,315  INFO GamePlayState:167 - entering SETUP_STATE
+   20:26:24,316  INFO GamePlayState:168 - PLAYER PLACING SHIPS
+   
