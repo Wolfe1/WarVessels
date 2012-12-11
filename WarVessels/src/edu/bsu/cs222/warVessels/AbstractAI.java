@@ -20,7 +20,6 @@ public abstract class AbstractAI {
 	protected int x;
 	protected int y;
 
-	private int guesses;
 	private int hitsOnShip;
 
 	private String sunk;
@@ -57,7 +56,6 @@ public abstract class AbstractAI {
 		xHit = new ArrayList<Integer>();
 		yHit = new ArrayList<Integer>();
 		choices = new ArrayList<Integer>();
-		guesses = 0;
 
 	}
 
@@ -101,7 +99,6 @@ public abstract class AbstractAI {
 		x = 0;
 		y = 0;
 
-		guesses++;
 		sunk = "";
 		ship = "";
 

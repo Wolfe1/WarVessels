@@ -199,7 +199,7 @@ public class ShipEntity {
 	/**
 	 * resets the bearing of the ship
 	 */
-	public void resetBearing(){
+	private void resetBearing(){
 		switch(ship.getBearing()){
 			case DOWN:
 				ship.resetBearing();
@@ -219,6 +219,10 @@ public class ShipEntity {
 				yOffset = xOffset;
 				xOffset = temp2;
 				break;
+		case RIGHT:
+			break;
+		default:
+			break;
 		}	 
 	}
 	
